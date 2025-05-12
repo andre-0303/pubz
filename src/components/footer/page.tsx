@@ -55,7 +55,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Rodapé */}
       <div className="mt-10 text-center border-t border-yellow-900 pt-4 text-sm text-yellow-200">
         &copy; {new Date().getFullYear()} Pub-Z. Todos os direitos reservados.
       </div>
