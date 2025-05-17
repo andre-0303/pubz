@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Cardapio from "@/components/Cardapio";
 import Especialidades from "@/components/Especialidades";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
     <Banner/>
     <Especialidades/>
+    <Cardapio/>
     </>
   );
 }
