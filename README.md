@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pub-Z
 
-## Getting Started
+Pub-Z é um projeto de site para um restaurante com temática medieval, especializado em cervejas artesanais e churrasquinhos. A proposta é unir a estética medieval com uma navegação moderna, oferecendo uma experiência única ao usuário.
 
-First, run the development server:
+## 🏰 Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O Pub-Z foi criado para representar digitalmente um restaurante que oferece uma experiência imersiva, tanto no ambiente físico quanto online. O site serve como vitrine para o cardápio, ambientação e proposta do restaurante.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🍺 Temática
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Ambientação inspirada na era medieval
+- Elementos visuais como brasões, texturas de madeira, pergaminhos e iluminação suave
+- Tipografia e cores que remetem a tabernas antigas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔥 Produtos Oferecidos
 
-## Learn More
+- Diversas opções de cervejas artesanais
+- Variedade de churrasquinhos e acompanhamentos
+- Combos e sugestões da casa em destaque
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Estrutura do Projeto
 
-## Deploy on Vercel
+- Organização de componentes reutilizáveis
+- Páginas com roteamento dinâmico
+- Separação entre assets, estilos e lógicas de negócio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Objetivos do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Criar uma identidade visual forte e coerente com o tema
+- Proporcionar navegação simples e responsiva
+- Incentivar o público a visitar o restaurante físico
+- Apresentar o cardápio de forma visualmente atrativa
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido com foco em responsividade, adaptando-se a diversos tamanhos de tela para garantir boa usabilidade em dispositivos móveis e desktops.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você deseja sugerir melhorias ou relatar problemas, fique à vontade para abrir uma issue ou um pull request.
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT.
