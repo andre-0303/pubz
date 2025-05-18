@@ -6,8 +6,10 @@ export default function Footer() {
     <footer className="bg-[#2a1c0f] text-yellow-100 px-8 py-4">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h2 className="text-yellow-400 text-3xl font-serif font-bold mb-4">Pub-Z</h2>
-          <p className="text-sm leading-relaxed">
+        <a href="#" className="text-yellow-400 text-3xl mb-4 font-serif font-bold hover:text-yellow-300 transition-colors">
+          Pub-Z
+        </a>          
+        <p className="text-sm leading-relaxed mt-6">
             Uma taberna medieval com cervejas artesanais e churrasquinho.
             <br /> Venha conhecer nossa atmosfera única!
           </p>
@@ -17,22 +19,22 @@ export default function Footer() {
           <h2 className="text-yellow-400 text-2xl font-serif font-bold mb-4">Navegação</h2>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-yellow-300 transition-colors font-serif">
+              <a href="#especialidades" className="hover:text-yellow-300 transition-colors font-serif">
                 Especialidades
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-300 transition-colors font-serif">
+              <a href="#cardapio" className="hover:text-yellow-300 transition-colors font-serif">
                 Cardápio
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-300 transition-colors font-serif">
+              <a href="#ambiente" className="hover:text-yellow-300 transition-colors font-serif">
                 Ambiente
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-300 transition-colors font-serif">
+              <a href="#localizacao" className="hover:text-yellow-300 transition-colors font-serif">
                 Localização
               </a>
             </li>

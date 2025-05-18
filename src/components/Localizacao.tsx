@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function Localizacao() {
   return (
-    <div className="bg-[#2a1c0f] min-h-[600px] w-full max-w-full px-6 py-8 flex flex-col items-center">
+    <div id="localizacao" className="scroll-mt-24 bg-[#2a1c0f] min-h-[600px] w-full max-w-full px-6 py-8 flex flex-col items-center">
+
       <h1 className="text-3xl sm:text-4xl mb-10 font-serif font-semibold uppercase text-center">
         <span className="text-yellow-500">Localização e</span>{" "}
         <span className="text-amber-100">Contato</span>
@@ -12,12 +13,13 @@ export default function Localizacao() {
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full max-w-6xl">
        <div className="md:w-1/2">
             <Image
-                src="/img2.jpg"
-                alt="Localização do Pub"
-                width={500}
-                height={200}
-                className="rounded-lg shadow-lg w-full h-[350px] object-cover"
+              src="/img2.jpg"
+              alt="Localização do Pub"
+              width={500}
+              height={200}
+              className="rounded-lg shadow-lg w-[350px] h-[240px] md:w-full md:h-[350px] object-cover object-center"
             />
+
         </div>
 
 
