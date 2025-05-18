@@ -42,6 +42,13 @@ O Pub-Z foi criado para representar digitalmente um restaurante que oferece uma 
 
 O projeto foi desenvolvido com foco em responsividade, adaptando-se a diversos tamanhos de tela para garantir boa usabilidade em dispositivos móveis e desktops.
 
+## 🧱 Deploy
+
+O site já está no ar pela vercel, dê uma olhada lá!
+
+[Ver site no ar](https://pubz.vercel.app/)
+
+
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Se você deseja sugerir melhorias ou relatar problemas, fique à vontade para abrir uma issue ou um pull request.
