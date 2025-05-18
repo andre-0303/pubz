@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 
@@ -45,10 +45,17 @@ const itensCardapio = [
   },
 ];
 
-export default function CardCardapio() {
+interface CardCardapioProps {
+  isMobile: boolean;
+}
+
+export default function CardCardapio({ isMobile }: CardCardapioProps) {
   const [showAll, setShowAll] = useState(false);
 
-  const itensParaMostrar = showAll ? itensCardapio : itensCardapio.slice(0, 3);
+  const maxItensMobile = 3;
+
+  const itensParaMostrar =
+    isMobile && !showAll ? itensCardapio.slice(0, maxItensMobile) : itensCardapio;
 
   return (
     <div className="max-w-5xl mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
@@ -67,8 +74,9 @@ export default function CardCardapio() {
         </div>
       ))}
 
-      {!showAll && (
-        <div className="sm:hidden flex justify-center mt-4">
+      {/* Botão Ver Mais só aparece no mobile e se tiver itens escondidos */}
+      {isMobile && !showAll && itensCardapio.length > maxItensMobile && (
+        <div className="flex justify-center mt-4">
           <button
             onClick={() => setShowAll(true)}
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-6 rounded"
