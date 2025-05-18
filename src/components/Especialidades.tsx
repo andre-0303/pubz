@@ -3,7 +3,8 @@ import { Beer, Utensils } from "lucide-react";
 export default function Especialidades() {
     return (
         <>
-            <div className="px-4 py-4 min-h-[600px] flex justify-center items-center flex-col bg-[#f5f5dc]">
+            <div id="especialidades" className="scroll-mt-24 px-4 py-4 min-h-[600px] flex justify-center items-center flex-col bg-[#f5f5dc]">
+
                 <h1 className="text-3xl sm:text-4xl mb-6 font-serif font-semibold mt-4 uppercase text-center">
                     Nossas <span className="text-red-600">especialidades</span>
                 </h1>
