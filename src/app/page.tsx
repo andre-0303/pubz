@@ -2,6 +2,7 @@ import Ambiente from "@/components/Ambiente";
 import Banner from "@/components/Banner";
 import Cardapio from "@/components/Cardapio";
 import Especialidades from "@/components/Especialidades";
+import Localizacao from "@/components/Localizacao";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Especialidades/>
     <Cardapio/>
     <Ambiente/>
+    <Localizacao/>
     </>
   );  
 }
