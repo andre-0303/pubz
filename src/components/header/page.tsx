@@ -1,22 +1,28 @@
-"use client"
+"use client";
 import { useState } from "react";
 import Link from "next/link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="bg-[#2a1c0f] flex items-center justify-between px-8 py-4 shadow-md sticky top-0 z-50">
       <div className="flex items-center space-x-3">
-        <span className="text-yellow-400 text-3xl font-serif font-bold">Pub-Z</span>
+        <a href="#" className="text-yellow-400 text-3xl font-serif font-bold hover:text-yellow-300 transition-colors">
+          Pub-Z
+        </a>
       </div>
 
       <nav className="hidden md:block">
         <ul className="flex space-x-8">
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Especialidades</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Cardápio</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Ambiente</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Localização</a></li>
+          <li><a href="#especialidades" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Especialidades</a></li>
+          <li><a href="#cardapio" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Cardápio</a></li>
+          <li><a href="#ambiente" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Ambiente</a></li>
+          <li><a href="#localizacao" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Localização</a></li>
         </ul>
       </nav>
 
@@ -33,10 +39,10 @@ export default function Header() {
           </svg>
         </button>
         <ul className="mt-16 flex flex-col items-start space-y-6 pl-6">
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Especialidades</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Cardápio</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Ambiente</a></li>
-          <li><a href="#" className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Localização</a></li>
+          <li><a href="#especialidades" onClick={handleLinkClick} className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Especialidades</a></li>
+          <li><a href="#cardapio" onClick={handleLinkClick} className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Cardápio</a></li>
+          <li><a href="#ambiente" onClick={handleLinkClick} className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Ambiente</a></li>
+          <li><a href="#localizacao" onClick={handleLinkClick} className="text-yellow-100 hover:text-yellow-300 transition-colors font-serif">Localização</a></li>
         </ul>
       </div>
     </header>
