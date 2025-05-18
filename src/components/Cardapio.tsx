@@ -10,7 +10,9 @@ export default function Cardapio() {
           <span className="text-amber-100">Completo</span>
         </h1>
         <h1 className="sm:text-2xl mb-8 font-serif font-semibold uppercase flex items-center gap-2 text-amber-100">
+          <div className="p-2 border-2 border-amber-100 rounded-full">
           <Drumstick className="text-amber-100" size={24} />
+          </div>
           <span>Cardápio</span>{" "}
           <span className="text-yellow-500">Completo</span>
         </h1>
